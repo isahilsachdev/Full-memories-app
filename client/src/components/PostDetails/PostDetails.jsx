@@ -89,7 +89,7 @@ const Post = () => {
           />
         </div>
       </div>
-      {recommendedPosts.length && (
+      {recommendedPosts.length ? (
         <div className={classes.section}>
           <Typography gutterBottom variant='h5'>
             You might also like:
@@ -125,7 +125,7 @@ const Post = () => {
             )}
           </div>
         </div>
-      )}
+      ) : null}
     </Paper>
   );
 };
