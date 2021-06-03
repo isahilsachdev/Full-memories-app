@@ -12,7 +12,9 @@ const Posts = ({ setCurrentId }) => {
   if (!posts.length && !isLoading) return <Redirect to='/' />;
 
   return isLoading ? (
-    <CircularProgress />
+    <div className={classes.loadingPaper}>
+      <CircularProgress size='7em' />
+    </div>
   ) : (
     <Grid
       className={classes.container}

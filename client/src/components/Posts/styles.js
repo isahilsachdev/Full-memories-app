@@ -63,6 +63,16 @@ export default makeStyles((theme) => ({
     },
   },
 
+  loadingPaper: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: '10px',
+    borderRadius: '15px',
+    width: '40%',
+    margin: '0px auto',
+    height: '39vh',
+  },
   actionDiv: {
     textAlign: 'center',
   },
