@@ -34,7 +34,7 @@ export default makeStyles((theme) => ({
   },
   profile: {
     display: 'flex',
-    justifyContent: 'space-between',
+    justifyContent: 'flex-end',
     width: '400px',
     alignItems: 'center',
     [theme.breakpoints.down('sm')]: {
@@ -43,10 +43,8 @@ export default makeStyles((theme) => ({
       justifyContent: 'center',
     },
   },
-  logout: {
-    marginLeft: '20px',
-  },
   userName: {
+    padding: '10px',
     display: 'flex',
     alignItems: 'center',
     textAlign: 'center',

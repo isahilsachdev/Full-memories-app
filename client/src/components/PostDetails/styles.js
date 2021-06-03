@@ -4,7 +4,7 @@ export default makeStyles((theme) => ({
   media: {
     borderRadius: '20px',
     objectFit: 'cover',
-    width: '50%',
+    width: '100%',
     maxHeight: '500px',
 
     margin: '0px auto',
@@ -22,11 +22,11 @@ export default makeStyles((theme) => ({
     width: '40%',
     borderRadius: '20px',
     margin: '10px',
+    // backgroundColor: 'white',
   },
   imageSection: {
     width: '60%',
     marginLeft: '10px',
-    [theme.breakpoints.down('sm')]: {},
   },
   recommendedPosts: {
     display: 'flex',
@@ -38,8 +38,10 @@ export default makeStyles((theme) => ({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    padding: '20px',
+    padding: '10px',
     borderRadius: '15px',
+    width: '40%',
+    margin: '0px auto',
     height: '39vh',
   },
 }));
