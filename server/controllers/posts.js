@@ -18,7 +18,7 @@ export const getPosts = async (req, res) => {
       .limit(LIMIT)
       .skip(startIndex);
 
-    res.json({
+    res.json({  
       data: posts,
       currentPage: Number(page),
       numberOfPages: Math.ceil(total / LIMIT),
